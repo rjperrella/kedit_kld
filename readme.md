@@ -9,3 +9,12 @@ No warranty is expressed or implied.
 
 License: MIT
 
+To use these kld files, simply add the following lines to your winprof.kex
+startup profile:
+
+set parser js js.kld
+set autocolor js js
+set autocolor ts js
+
+I have included my winprof.kex as an example.
+
