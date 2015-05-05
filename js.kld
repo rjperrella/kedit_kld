@@ -1,4 +1,5 @@
 * KLD file for JavaScript color highlighting
+* includes support for TypeScript keywords (see comment below)
 :case
 respect
 :identifier
