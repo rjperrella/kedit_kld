@@ -1,0 +1,78 @@
+* KLD file for JavaScript color highlighting
+:case
+respect
+:identifier
+[a-zA-Z$_] [a-zA-Z0-9$_]
+:comment
+line // any
+paired /* */ nonest
+:string
+single backslash
+double backslash
+* js has regexes delimited by slash.
+delimiter /
+:number
+C
+:match
+( )
+{ }
+\[ \]
+try catch
+:keyword
+break
+continue
+if
+then
+else
+try
+catch
+finally
+while
+do
+function
+var
+typeof
+return
+null
+NaN
+new
+undefined
+instanceof
+switch
+case
+debugger
+default
+delete
+for
+in
+this
+throw
+with
+
+* typescript extensions
+class
+interface
+module
+export
+constructor
+static
+enum
+declare
+require
+import
+public
+private
+implements
+extends
+get
+set
+super
+any
+number
+boolean
+void
+string
+
+:postcompare
+CLASS [+-=/&|:?!<>.*]
+

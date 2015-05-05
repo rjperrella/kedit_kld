@@ -1,0 +1,8 @@
+* KEDIT.Macros.txt - KEDIT for Windows
+
+This folder, created by the KEDIT for Windows install program, is the
+recommended location for any KEDIT macros, such as WINPROF.KEX, that you
+create.
+
+KEDIT itself does not write to this folder, and if you don't plan to use
+it to hold macros of your own, you can delete this folder.

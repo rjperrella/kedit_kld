@@ -1,0 +1,6 @@
+/* KEXX */
+/* set the parser for syntax color highlighting. */
+set parser js js.kld
+set parser ts js.kld
+set autocolor .js js
+set autocolor .ts ts
